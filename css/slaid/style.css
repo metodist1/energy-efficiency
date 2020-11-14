@@ -1,0 +1,19 @@
+
+.slider_wrap {
+	margin:0px auto 40;
+	width:800px;
+	height:400px;
+	position:relative;
+	overflow:hidden;
+}
+.slider_wrap img {
+	width:auto;
+	height:auto;
+	display:none;
+	position:absolute;
+	top:0;
+	left:10;	
+}
+.slider_wrap img:first-child {
+	display:block;
+}
